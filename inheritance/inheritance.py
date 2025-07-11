@@ -11,7 +11,7 @@
 # print(p.name)
 
 class animal:
-    def __init__(self, name):
+    def __init__(self, name): #constructor
         self.name = name
 
 class human:
@@ -25,8 +25,24 @@ class student(animal, human):
         self.faculty = faculty
 
 a = student("Hari", 12, "BCA")
-print(a.name)
-print(a.age)
-print(a.faculty)
+# print(a.name)
+# print(a.age)
+# print(a.faculty)
+print(f"Hi my name is {a.name}, age is {a.age} and faculty is {a.faculty}")
 
+try:
+    a = 10
+    b = "10"
+    print(a+b)
+    print(hello)
+except NameError as e:
+    print("Name error", e)
+
+except TypeError as e:
+    print("Type error", e)
+except Exception as e:
+    print(e)
+
+finally:
+    print("Error handled")
         
