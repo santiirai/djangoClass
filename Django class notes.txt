@@ -1,0 +1,24 @@
+Django class
+first class
+------------
+we should create the virtual env to support or use 3.10 version instead of 3.13
+
+          In bash
+         ---------
+--virtual env--> python -m venv venv
+--activate  env --> source ./venv/Scripts/activate
+Now we successfully create and activate it
+--pip install Django
+-- django-admin startproject myProject
+-- python manage.py runserver --->to run the project (then ctrl+c)
+--python manage.py --help
+
+to start the project
+--------------------
+
+--activate venv
+--python manage.py startapp myApp
+{Notes: we have to use setting.py first)
+
+
+--pip freeze > requirement.txt

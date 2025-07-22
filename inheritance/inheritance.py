@@ -39,6 +39,7 @@ except NameError as e:
     print("Name error", e)
 
 except TypeError as e:
+    
     print("Type error", e)
 except Exception as e:
     print(e)
@@ -46,3 +47,5 @@ except Exception as e:
 finally:
     print("Error handled")
         
+
+
